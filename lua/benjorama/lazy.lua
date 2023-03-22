@@ -16,7 +16,7 @@ require('lazy').setup({
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
-	{ 
+	{
 		'catppuccin/nvim',
 		name = 'catppuccin',
 		config = function()
@@ -58,5 +58,9 @@ require('lazy').setup({
       {'nvim-treesitter/nvim-treesitter'}
     }
   },
-  { 'j-hui/fidget.nvim' }
+  { 'j-hui/fidget.nvim' },
+  {
+    'nvim-tree/nvim-tree.lua',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  }
 })
