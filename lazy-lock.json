@@ -9,6 +9,7 @@
   "fidget.nvim": { "branch": "main", "commit": "688b4fec4517650e29c3e63cfbb6e498b3112ba1" },
   "friendly-snippets": { "branch": "main", "commit": "25ddcd96540a2ce41d714bd7fea2e7f75fea8ead" },
   "gitsigns.nvim": { "branch": "main", "commit": "b1f9cf7c5c5639c006c937fc1819e09f358210fc" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "018bd04d80c9a73d399c1061fa0c3b14a7614399" },
   "lazy.nvim": { "branch": "main", "commit": "8456a867f79e3fb3b5390659c5d11a1e35793372" },
   "lsp-zero.nvim": { "branch": "v1.x", "commit": "63951c8f9701871abd6858d26f3bcc6b99ce5c74" },
   "lspsaga.nvim": { "branch": "main", "commit": "db6cdf51bf5ae45e4aa65760e597cf0d587c66ee" },

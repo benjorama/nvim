@@ -64,5 +64,6 @@ require('lazy').setup({
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   { 'nvim-lualine/lualine.nvim' },
-  { 'lewis6991/gitsigns.nvim' }
+  { 'lewis6991/gitsigns.nvim' },
+  { "lukas-reineke/indent-blankline.nvim" },
 })

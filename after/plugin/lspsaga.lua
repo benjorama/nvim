@@ -1,4 +1,9 @@
-require('lspsaga').setup({})
+require('lspsaga').setup({
+  ui = {
+    kind = require("catppuccin.groups.integrations.lsp_saga").custom_kind(),
+  },
+})
+
 local keymap = vim.keymap.set
 
 -- LSP finder - Find the symbol's definition
