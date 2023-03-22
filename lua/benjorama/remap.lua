@@ -9,5 +9,3 @@ vim.keymap.set('n', 'H', ':bprevious<CR>')
 -- unload current buffer and delete it from buffer list
 vim.keymap.set('n', 'U', ':bdelete<CR>')
 
--- open nvim-tree
-vim.keymap.set('n', '<leader>fe', ':NvimTreeToggle<CR>')
