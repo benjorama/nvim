@@ -66,4 +66,5 @@ require('lazy').setup({
   { 'nvim-lualine/lualine.nvim' },
   { 'lewis6991/gitsigns.nvim' },
   { "lukas-reineke/indent-blankline.nvim" },
+  { 'echasnovski/mini.indentscope', version = '*' },
 })
