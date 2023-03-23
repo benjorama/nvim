@@ -19,9 +19,6 @@ require('lazy').setup({
 	{
 		'catppuccin/nvim',
 		name = 'catppuccin',
-		config = function()
-			vim.cmd.colorscheme 'catppuccin'
-		end,
 	},
 	{
 		'nvim-treesitter/nvim-treesitter',
@@ -68,4 +65,5 @@ require('lazy').setup({
   { "lukas-reineke/indent-blankline.nvim" },
   { 'echasnovski/mini.indentscope', version = '*' },
   { "folke/which-key.nvim" },
+  { 'numToStr/Comment.nvim'},
 })
