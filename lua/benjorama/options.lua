@@ -1,7 +1,7 @@
 -- disable netrw at the very start of your init.lua (strongly advised)
 -- this is for nvim-tree
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
 
 -- set line numbers
 vim.opt.number = true
@@ -42,3 +42,13 @@ vim.g.mapleader = ' '
 
 -- use system clipboard for copying
 vim.opt.clipboard = 'unnamedplus'
+
+-- for indent_blankline.nvim
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
+vim.opt.listchars:append "eol:↴"
+
+-- for which_key.nvim
+vim.o.timeout = true
+vim.o.timeoutlen = 300
+
